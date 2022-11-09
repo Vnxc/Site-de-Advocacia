@@ -18,7 +18,7 @@ a   {
     text-decoration: none;
 }
 
-img{
+img {
     width: 100%;
 }
 
@@ -119,3 +119,67 @@ i   {
     background-color: var(--main-color);
 }
 
+/*main*/
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+}
+   
+main #expertise-areas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+}
+
+main #expertise-areas #text-area{
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-end;
+   gap: 30px;
+}
+main #expertise-areas #text-area span{
+    color: var(--main-color);
+}
+
+main #expertise-areas #text-area h3{
+    max-width: 1000px;
+    text-align: end;
+    font-size: 2rem;
+}
+
+main #expertise-areas #text-area #btn-saiba-mais{
+    width: 130px;
+    height: 40px;
+    padding: 5px;
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+main #expertise-areas #img-suits{
+    width: 40%;
+    
+}
+
+main #expertise-areas #img-suits img{
+    position: absolute;
+    right: 0;
+    width: 580px;
+}
+
+#icon-people{
+    width: 100px;
+    position: relative;
+    left: 25px;
+    top: 32px;
+}
